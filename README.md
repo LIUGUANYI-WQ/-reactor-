@@ -194,23 +194,3 @@ make
 
 ---
 
-## 文件清单
-
-```
-simple_reactor/
-├── include/
-│   ├── Buffer.h              # 缓冲区
-│   ├── ThreadPool.h          # 工作线程池
-│   ├── Epoll.h               # epoll封装
-│   ├── Channel.h             # 事件通道
-│   ├── EventLoop.h           # 事件循环
-│   ├── Acceptor.h            # 连接接收器
-│   ├── TcpConnection.h       # TCP连接
-│   ├── EventLoopThread.h     # IO线程
-│   ├── EventLoopThreadPool.h # IO线程池
-│   └── TcpServer.h           # TCP服务器
-├── src/                      # 实现文件
-├── examples/
-│   └── main_reactor_server.cpp  # 示例
-└── Makefile
-```
